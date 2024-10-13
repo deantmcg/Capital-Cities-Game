@@ -56,7 +56,6 @@
             this.lstScores.Location = new System.Drawing.Point(47, 81);
             this.lstScores.Name = "lstScores";
             this.lstScores.Size = new System.Drawing.Size(370, 404);
-            this.lstScores.Sorted = true;
             this.lstScores.TabIndex = 1;
             // 
             // picClose

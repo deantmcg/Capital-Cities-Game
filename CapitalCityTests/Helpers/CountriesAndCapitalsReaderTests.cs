@@ -38,7 +38,7 @@ namespace CapitalCityTests
             // Call the method with the raw JSON string
             List<Country> countries = CountriesAndCapitalsReader.DeserializeCountries(rawJson);
 
-            // Validate the deserialization (example assertion)
+            // Validate the deserialization
             Assert.IsNotNull(countries);
             Assert.AreEqual(1, countries.Count);
             Assert.AreEqual("France", countries[0].Name);

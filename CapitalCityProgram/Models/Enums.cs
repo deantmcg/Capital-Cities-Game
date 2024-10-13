@@ -7,4 +7,10 @@
         Hard,
         VeryHard
     }
+
+    public enum QuestionFormat
+    {
+        Country = 0,
+        CapitalCity = 1
+    }
 }

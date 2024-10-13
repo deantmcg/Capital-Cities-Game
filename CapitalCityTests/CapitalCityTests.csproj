@@ -49,6 +49,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helpers\HighScoresHelperTests.cs" />
     <Compile Include="Helpers\CountriesAndCapitalsReaderTests.cs" />
     <Compile Include="Helpers\StringHelperTests.cs" />
     <Compile Include="Models\CapitalCityTest.cs" />

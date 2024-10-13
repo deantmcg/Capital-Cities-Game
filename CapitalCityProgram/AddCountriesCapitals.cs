@@ -54,9 +54,9 @@ namespace CapitalCityProgram
             else if (Convert.ToInt32(txtQuestions.Text) > 0 && Convert.ToInt32(txtQuestions.Text) <= countries.Count)
             {
                 questions = Convert.ToInt32(txtQuestions.Text); // Stores text entered in questions variable
-                frmGame frmGame = new frmGame(countries); // Opens the game form
+                frmGame frmGame = new frmGame(); // Opens the game form
                 frmGame.Show();
-                this.Hide();
+                Hide();
             }
         }
     }

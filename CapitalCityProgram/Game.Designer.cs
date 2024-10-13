@@ -63,7 +63,6 @@
             this.lblScore.TabIndex = 2;
             this.lblScore.Text = "Score here";
             this.lblScore.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.lblScore.Click += new System.EventHandler(this.lblScore_Click);
             // 
             // label1
             // 
@@ -109,7 +108,6 @@
             this.txtAnswer.Size = new System.Drawing.Size(623, 62);
             this.txtAnswer.TabIndex = 1;
             this.txtAnswer.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtAnswer.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // btnPass
             // 
@@ -181,7 +179,6 @@
             this.Name = "frmGame";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Game";
-            this.Load += new System.EventHandler(this.frmGame_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picClose)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

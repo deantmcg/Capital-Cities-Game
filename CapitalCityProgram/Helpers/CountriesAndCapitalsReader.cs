@@ -9,14 +9,12 @@ namespace CapitalCityTests.Helpers
     public class CountriesAndCapitalsReader
     {
         private const string fileName = "countries_and_capitals.json";
+        private static string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "GameFiles", fileName);
 
         public static List<Country> GetCountries()
         {
             try
             {
-                // Get the full path to the output directory
-                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "GameFiles", fileName);
-
                 // Read the content of the JSON file
                 string jsonString = File.ReadAllText(filePath);
 

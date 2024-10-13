@@ -55,11 +55,13 @@
     <Compile Include="AddCountriesCapitals.Designer.cs">
       <DependentUpon>AddCountriesCapitals.cs</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\HighScoresHelper.cs" />
     <Compile Include="Helpers\CountriesAndCapitalsReader.cs" />
     <Compile Include="Models\CapitalCity.cs" />
     <Compile Include="Models\Country.cs" />
     <Compile Include="Models\Enums.cs" />
     <Compile Include="Helpers\StringHelper.cs" />
+    <Compile Include="Models\HighScore.cs" />
     <Compile Include="Welcome.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -131,6 +133,9 @@
     <None Include="GameFiles\countries_and_capitals.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="GameFiles\high_scores.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -146,12 +151,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="GameFiles\Capitals.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="GameFiles\Countries.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="GameFiles\High Scores.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

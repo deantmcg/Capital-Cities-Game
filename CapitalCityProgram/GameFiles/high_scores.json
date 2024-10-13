@@ -1,0 +1,197 @@
+[
+  {
+    "Username": "QuantumQuill",
+    "Score": 420,
+    "Timestamp": "2024-10-13T15:00:00Z"
+  },
+  {
+    "Username": "LightningFury",
+    "Score": 410,
+    "Timestamp": "2024-10-13T15:01:00Z"
+  },
+  {
+    "Username": "TurboRogue",
+    "Score": 400,
+    "Timestamp": "2024-10-13T15:02:00Z"
+  },
+  {
+    "Username": "TitanBlitz",
+    "Score": 390,
+    "Timestamp": "2024-10-13T15:03:00Z"
+  },
+  {
+    "Username": "NebulaWhisper",
+    "Score": 370,
+    "Timestamp": "2024-10-13T15:04:00Z"
+  },
+  {
+    "Username": "SkyLark",
+    "Score": 360,
+    "Timestamp": "2024-10-13T15:05:00Z"
+  },
+  {
+    "Username": "RadiantWolf",
+    "Score": 350,
+    "Timestamp": "2024-10-13T15:06:00Z"
+  },
+  {
+    "Username": "OmegaRaven",
+    "Score": 340,
+    "Timestamp": "2024-10-13T15:07:00Z"
+  },
+  {
+    "Username": "FrostWolf",
+    "Score": 330,
+    "Timestamp": "2024-10-13T15:08:00Z"
+  },
+  {
+    "Username": "IronClaw",
+    "Score": 320,
+    "Timestamp": "2024-10-13T15:09:00Z"
+  },
+  {
+    "Username": "SkyDancer",
+    "Score": 310,
+    "Timestamp": "2024-10-13T15:10:00Z"
+  },
+  {
+    "Username": "ShadowHunter",
+    "Score": 300,
+    "Timestamp": "2024-10-13T15:11:00Z"
+  },
+  {
+    "Username": "ThunderBolt",
+    "Score": 290,
+    "Timestamp": "2024-10-13T15:12:00Z"
+  },
+  {
+    "Username": "SteelTiger",
+    "Score": 280,
+    "Timestamp": "2024-10-13T15:13:00Z"
+  },
+  {
+    "Username": "GhostHawk",
+    "Score": 270,
+    "Timestamp": "2024-10-13T15:14:00Z"
+  },
+  {
+    "Username": "SolarPhoenix",
+    "Score": 210,
+    "Timestamp": "2024-10-13T15:15:00Z"
+  },
+  {
+    "Username": "CrystalViper",
+    "Score": 220,
+    "Timestamp": "2024-10-13T15:16:00Z"
+  },
+  {
+    "Username": "CrimsonFalcon",
+    "Score": 230,
+    "Timestamp": "2024-10-13T15:17:00Z"
+  },
+  {
+    "Username": "HyperLion",
+    "Score": 240,
+    "Timestamp": "2024-10-13T15:18:00Z"
+  },
+  {
+    "Username": "NeonKnight",
+    "Score": 250,
+    "Timestamp": "2024-10-13T15:19:00Z"
+  },
+  {
+    "Username": "MoonlightMarauder",
+    "Score": 190,
+    "Timestamp": "2024-10-13T15:20:00Z"
+  },
+  {
+    "Username": "SpectralWraith",
+    "Score": 180,
+    "Timestamp": "2024-10-13T15:21:00Z"
+  },
+  {
+    "Username": "IronGhost",
+    "Score": 170,
+    "Timestamp": "2024-10-13T15:22:00Z"
+  },
+  {
+    "Username": "VenomStrike",
+    "Score": 160,
+    "Timestamp": "2024-10-13T15:23:00Z"
+  },
+  {
+    "Username": "PixelDragon",
+    "Score": 150,
+    "Timestamp": "2024-10-13T15:24:00Z"
+  },
+  {
+    "Username": "BlitzCobra",
+    "Score": 140,
+    "Timestamp": "2024-10-13T15:25:00Z"
+  },
+  {
+    "Username": "BlazeRunner",
+    "Score": 130,
+    "Timestamp": "2024-10-13T15:26:00Z"
+  },
+  {
+    "Username": "VortexRaider",
+    "Score": 120,
+    "Timestamp": "2024-10-13T15:27:00Z"
+  },
+  {
+    "Username": "ZenithShade",
+    "Score": 110,
+    "Timestamp": "2024-10-13T15:28:00Z"
+  },
+  {
+    "Username": "SilverFox",
+    "Score": 100,
+    "Timestamp": "2024-10-13T15:29:00Z"
+  },
+  {
+    "Username": "PhoenixFlare",
+    "Score": 80,
+    "Timestamp": "2024-10-13T15:30:00Z"
+  },
+  {
+    "Username": "AquaSnipe",
+    "Score": 70,
+    "Timestamp": "2024-10-13T15:31:00Z"
+  },
+  {
+    "Username": "SapphireStorm",
+    "Score": 60,
+    "Timestamp": "2024-10-13T15:32:00Z"
+  },
+  {
+    "Username": "MysticFlame",
+    "Score": 50,
+    "Timestamp": "2024-10-13T15:33:00Z"
+  },
+  {
+    "Username": "EchoRider",
+    "Score": 40,
+    "Timestamp": "2024-10-13T15:34:00Z"
+  },
+  {
+    "Username": "NovaBlaze",
+    "Score": 30,
+    "Timestamp": "2024-10-13T15:35:00Z"
+  },
+  {
+    "Username": "GrimFalcon",
+    "Score": 20,
+    "Timestamp": "2024-10-13T15:36:00Z"
+  },
+  {
+    "Username": "WildSpectre",
+    "Score": 10,
+    "Timestamp": "2024-10-13T15:37:00Z"
+  },
+  {
+    "Username": "CyberPhantom",
+    "Score": 0,
+    "Timestamp": "2024-10-13T15:38:00Z"
+  }
+]

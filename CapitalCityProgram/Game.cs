@@ -1,4 +1,5 @@
 ﻿using CapitalCityProgram.Models;
+using CapitalCityTests.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,68 +7,42 @@ using System.Windows.Forms;
 
 namespace CapitalCityProgram
 {
-    public enum QuestionFormat
-    {
-        Country,
-        CapitalCity
-    }
-
     public partial class frmGame : Form
     {
         // these will increase/decrease during game depending on user performance
         public static int score = 0;
         public static int hintsUsed = 0;
         public static int questionsPassed = 0;
-        int questionsAsked = 0;
+        private int questionsAsked = 0;
 
-        // This is the 2 possible question formats that can be asked
-        string[] questions = new string[2] { "What is the capital city of ", " is the capital of which country?" };
-
-        QuestionFormat questionFormat;
-        int q; // index for random question format (questions[])
-        int index; // index for random country and capital city
-
-        string answer;
+        private QuestionFormat questionFormat;
+        private int q; // index for random question format (questions[])
+        private int index; // index for random country and capital city
         
         // creates lists to store the lists sent from previous method
-        List<Country> countries;
-        Country currentCountry;
-        int hintsLeftForQuestion = 2;
-        int?[] hintIndexUsed = new int?[2];
+        private List<Country> countries = CountriesAndCapitalsReader.GetCountries();
+        private Country currentCountry;
+        private int hintsLeftForQuestion = 2;
+        private int?[] hintIndexUsed = new int?[2];
 
-        public frmGame(List<Country> list1) // Two lists sent to this method are from previous form
+        public frmGame()
         {
             InitializeComponent();
-            score = score - score; // Important for when a user decides to play again. Sets score back to zero
-            countries = list1;
+            score = 0; // Important for when a user decides to play again. Sets score back to zero
 
-            lblUsername.Text = frmUserDetails.username + " playing"; // Displays username in game - pulled from User Details form
-            lblScore.Text = "Score: " + score;
+            lblUsername.Text = $"{frmUserDetails.username} playing"; // Displays username in game - pulled from User Details form
+            lblScore.Text = $"Score: {score}";
 
             setValues(); // randomly generates indexes
             askQuestion(); // uses indexes to ask question
-        }
-
-        private void frmGame_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblScore_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void picClose_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
+        
+        // Deducts from score when pass is clicked - increases pass count - clears text and asks new question
         private void btnPass_Click(object sender, EventArgs e)
         {
             scoreUpdate(-10);
@@ -76,7 +51,7 @@ namespace CapitalCityProgram
             questionsPassed = questionsPassed + 1;
             txtAnswer.Text = "";
             lblHint.Text = "";
-        } // Deducts from score when pass is clicked - increases pass count - clears text and asks new question
+        }
 
         private void btnNextQ_Click(object sender, EventArgs e)
         {
@@ -109,14 +84,18 @@ namespace CapitalCityProgram
             hintsLeftForQuestion = 2;
             hintIndexUsed = new int?[2];
         }
-
+        
+        // Uses random to generate index and q variables
         public void setValues()
         {
+            if (countries.Count == 0)
+                return;
+
             Random rand = new Random();
             q = rand.Next(0, 2);
             index = rand.Next(0, (countries.Count));
             currentCountry = countries[index];
-        } // Uses random to generate index and q variables
+        } 
 
         public void askQuestion()
         {
@@ -149,7 +128,6 @@ namespace CapitalCityProgram
             } // if questions asked matches chosen amount this opens Game Over form
 
             txtAnswer.Focus();
-            
         }
 
         // Displays first letter of answer if hint is clicked - score decreased by 5 - hint count is increased by 1
@@ -181,7 +159,7 @@ namespace CapitalCityProgram
                 }
 
                 scoreUpdate(-5);
-                hintsUsed = hintsUsed + 1;
+                hintsUsed++;
                 hintsLeftForQuestion--;
             }
                 
@@ -191,8 +169,8 @@ namespace CapitalCityProgram
         // takes an int variable and updates score
         public void scoreUpdate(int change)
         {
-            score = score + change;
-            lblScore.Text = $"Score: {score.ToString()}";
+            score += change;
+            lblScore.Text = $"Score: {score}";
         }
     }
 }
