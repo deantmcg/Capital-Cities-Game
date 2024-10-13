@@ -1,0 +1,250 @@
+[
+  {
+    "Name": "France",
+    "AcceptedNames": [ "French Republic" ],
+    "CapitalCity": {
+      "Name": "Paris",
+      "AcceptedNames": [],
+      "Hints": [
+        "This city is known for the Louvre Museum.",
+        "It is famous for its fashion and art.",
+        "The Eiffel Tower is a major landmark."
+      ]
+    },
+    "Difficulty": "Easy",
+    "Continent": "Europe",
+    "Population": 67000000,
+    "Hints": [
+      "This country is famous for the Eiffel Tower.",
+      "It's known for its cuisine, including baguettes and croissants.",
+      "The official language is French."
+    ],
+    "Languages": [ "French" ],
+    "NeighbouringCountries": [ "Germany", "Belgium", "Spain", "Italy", "Switzerland", "Luxembourg" ]
+  },
+  {
+    "Name": "Japan",
+    "AcceptedNames": [ "Nippon", "Nihon" ],
+    "CapitalCity": {
+      "Name": "Tokyo",
+      "AcceptedNames": [ "Edo" ],
+      "Hints": [
+        "This city is known for its cherry blossoms.",
+        "It's a major economic hub in Asia.",
+        "Home to the famous Shibuya Crossing."
+      ]
+    },
+    "Difficulty": "Medium",
+    "Continent": "Asia",
+    "Population": 126000000,
+    "Hints": [
+      "This country is known for sushi and ramen.",
+      "It's made up of four main islands: Honshu, Hokkaido, Kyushu, and Shikoku.",
+      "Mount Fuji is a famous landmark here."
+    ],
+    "Languages": [ "Japanese" ],
+    "NeighbouringCountries": [ "South Korea", "Russia" ]
+  },
+  {
+    "Name": "India",
+    "AcceptedNames": [ "Republic of India", "Bharat" ],
+    "CapitalCity": {
+      "Name": "New Delhi",
+      "AcceptedNames": [ "Delhi" ],
+      "Hints": [
+        "This city is home to the Indian Parliament.",
+        "It features the iconic India Gate.",
+        "New Delhi is known for its vibrant markets."
+      ]
+    },
+    "Difficulty": "Medium",
+    "Continent": "Asia",
+    "Population": 1393409038,
+    "Hints": [
+      "The second most populous country in the world.",
+      "Famous for its cuisine, including curry, naan bread, and masala dishes.",
+      "This country is known for landmarks like the Taj Mahal."
+    ],
+    "Languages": [ "Hindi", "English", "Bengali", "Telugu", "Marathi" ],
+    "NeighbouringCountries": [ "China", "Pakistan", "Bangladesh", "Nepal", "Bhutan", "Myanmar" ]
+  },
+  {
+    "Name": "Brazil",
+    "AcceptedNames": [ "Federative Republic of Brazil" ],
+    "CapitalCity": {
+      "Name": "Bras�lia",
+      "AcceptedNames": [],
+      "Hints": [
+        "This city is known for its modernist architecture.",
+        "It was designed by the architect Oscar Niemeyer.",
+        "Bras�lia is the capital city built in the 20th century."
+      ]
+    },
+    "Difficulty": "Medium",
+    "Continent": "South America",
+    "Population": 213993437,
+    "Hints": [
+      "This country is famous for its Carnival festival.",
+      "It is the largest country in South America.",
+      "Home to the Amazon Rainforest."
+    ],
+    "Languages": [ "Portuguese" ],
+    "NeighbouringCountries": [ "Argentina", "Peru", "Colombia", "Venezuela", "Guyana", "Suriname" ]
+  },
+  {
+    "Name": "Germany",
+    "AcceptedNames": [ "Federal Republic of Germany" ],
+    "CapitalCity": {
+      "Name": "Berlin",
+      "AcceptedNames": [],
+      "Hints": [
+        "This city is known for its rich history and culture.",
+        "It is famous for the Brandenburg Gate.",
+        "Berlin is home to numerous museums and galleries."
+      ]
+    },
+    "Difficulty": "Medium",
+    "Continent": "Europe",
+    "Population": 83783942,
+    "Hints": [
+      "Known for its beer and Oktoberfest.",
+      "Famous for the Berlin Wall.",
+      "This country has a strong automotive industry."
+    ],
+    "Languages": [ "German" ],
+    "NeighbouringCountries": [ "France", "Poland", "Netherlands", "Belgium", "Austria", "Switzerland" ]
+  },
+  {
+    "Name": "Canada",
+    "AcceptedNames": [ "Great White North" ],
+    "CapitalCity": {
+      "Name": "Ottawa",
+      "AcceptedNames": [],
+      "Hints": [
+        "This city is home to the Parliament of Canada.",
+        "Ottawa is known for its historic sites.",
+        "The Rideau Canal runs through this city."
+      ]
+    },
+    "Difficulty": "Easy",
+    "Continent": "North America",
+    "Population": 37742154,
+    "Hints": [
+      "This country is known for its maple syrup.",
+      "It has the longest coastline in the world.",
+      "It has two official languages: English and French."
+    ],
+    "Languages": [ "English", "French" ],
+    "NeighbouringCountries": [ "United States" ]
+  },
+  {
+    "Name": "Australia",
+    "AcceptedNames": [ "Commonwealth of Australia" ],
+    "CapitalCity": {
+      "Name": "Canberra",
+      "AcceptedNames": [],
+      "Hints": [
+        "This city is known for its national institutions.",
+        "Canberra is located in the Australian Capital Territory.",
+        "It is planned and designed as a capital city."
+      ]
+    },
+    "Difficulty": "Easy",
+    "Continent": "Oceania",
+    "Population": 25687041,
+    "Hints": [
+      "Famous for the Great Barrier Reef.",
+      "Home to unique wildlife like kangaroos and koalas.",
+      "Known for its beaches and laid-back culture."
+    ],
+    "Languages": [ "English" ],
+    "NeighbouringCountries": [ "None" ]
+  },
+  {
+    "Name": "Egypt",
+    "AcceptedNames": [ "Arab Republic of Egypt" ],
+    "CapitalCity": {
+      "Name": "Cairo",
+      "AcceptedNames": [],
+      "Hints": [
+        "This city is known for the Pyramids of Giza.",
+        "Cairo is the largest city in the Arab world.",
+        "It is a major center for culture and history."
+      ]
+    },
+    "Difficulty": "Medium",
+    "Continent": "Africa",
+    "Population": 102334155,
+    "Hints": [
+      "Home to the ancient pyramids.",
+      "This country is located in northeastern Africa.",
+      "The Nile River is the longest river in the world."
+    ],
+    "Languages": [ "Arabic" ],
+    "NeighbouringCountries": [ "Libya", "Sudan", "Israel" ]
+  },
+  {
+    "Name": "South Africa",
+    "AcceptedNames": [ "Republic of South Africa" ],
+    "CapitalCity": {
+      "Name": "Pretoria",
+      "AcceptedNames": [ "Tshwane" ],
+      "Hints": [
+        "This city is one of the three capital cities of South Africa.",
+        "Pretoria is known for its historical landmarks.",
+        "It is a center of government and administration."
+      ]
+    },
+    "Difficulty": "Hard",
+    "Continent": "Africa",
+    "Population": 59308690,
+    "Hints": [
+      "This country is known for its diverse culture and history.",
+      "Home to the city of Cape Town.",
+      "It has 11 official languages."
+    ],
+    "Languages": [ "Afrikaans", "English", "Zulu", "Xhosa", "Sotho", "Tswana", "Sesotho", "Tshivenda", "Xitsonga" ],
+    "NeighbouringCountries": [ "Namibia", "Botswana", "Zimbabwe", "Mozambique", "Swaziland", "Lesotho" ]
+  },
+  {
+    "Name": "Italy",
+    "AcceptedNames": [ "Italian Republic" ],
+    "CapitalCity": {
+      "Name": "Rome",
+      "AcceptedNames": [],
+      "Hints": [
+        "This city is famous for its ancient ruins.",
+        "Home to the Vatican City, the smallest country in the world.",
+        "Rome is known for its art and architecture."
+      ]
+    },
+    "Difficulty": "Medium",
+    "Continent": "Europe",
+    "Population": 60244639,
+    "Hints": [
+      "Home to the Colosseum and the Vatican City.",
+      "Famous for its cuisine, including pasta and pizza.",
+      "This country has a rich history dating back to the Roman Empire."
+    ],
+    "Languages": [ "Italian" ],
+    "NeighbouringCountries": [ "France", "Switzerland", "Austria", "Slovenia" ]
+  },
+  {
+	  "Name": "Argentina",
+	  "AcceptedNames": ["Argentine Republic"],
+	  "CapitalCity": {
+		"Name": "Buenos Aires",
+		"AcceptedNames": ["BA", "City of Faded Roses", "Queen of the Plata"]
+	  },
+	  "Difficulty": "Medium",
+	  "Continent": "South America",
+	  "Population": 45195777,
+	  "Hints": [
+		"Famous for its tango dance.",
+		"This country is known for its beef and wine.",
+		"Home to the Andes mountain range."
+	  ],
+	  "Languages": ["Spanish"],
+	  "NeighbouringCountries": ["Chile", "Bolivia", "Paraguay", "Brazil", "Uruguay"]
+	}
+]

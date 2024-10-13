@@ -34,7 +34,7 @@ namespace CapitalCityProgram
             lblScored.Text = frmUserDetails.username.ToUpper()+" SCORED";
             lblScore.Text = frmGame.score.ToString(); // displays users score
             lblFromPossible.Text = "FROM A POSSIBLE "+possible.ToString();
-            lblHintsPasses.Text = "Hints used: " + frmGame.hints + " Passes: "+frmGame.pass; // Displays pass and hint counts
+            lblHintsPasses.Text = "Hints used: " + frmGame.hintsUsed + " Passes: "+frmGame.questionsPassed; // Displays pass and hint counts
 
             ToHighScores(frmUserDetails.username, frmGame.score); // sends username and score to be added to high scores
         }
