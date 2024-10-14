@@ -65,7 +65,7 @@
             this.btnGo.Location = new System.Drawing.Point(77, 154);
             this.btnGo.Name = "btnGo";
             this.btnGo.Size = new System.Drawing.Size(133, 37);
-            this.btnGo.TabIndex = 2;
+            this.btnGo.TabIndex = 3;
             this.btnGo.Text = "GO";
             this.btnGo.UseVisualStyleBackColor = true;
             this.btnGo.Click += new System.EventHandler(this.btnGo_Click);
@@ -95,7 +95,7 @@
             this.drpDifficulty.Location = new System.Drawing.Point(54, 114);
             this.drpDifficulty.Name = "drpDifficulty";
             this.drpDifficulty.Size = new System.Drawing.Size(175, 21);
-            this.drpDifficulty.TabIndex = 4;
+            this.drpDifficulty.TabIndex = 2;
             // 
             // frmGameConfig
             // 

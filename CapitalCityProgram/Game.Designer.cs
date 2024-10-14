@@ -108,6 +108,7 @@
             this.txtAnswer.Size = new System.Drawing.Size(623, 62);
             this.txtAnswer.TabIndex = 1;
             this.txtAnswer.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtAnswer.KeyPress += new System.Windows.Forms.KeyPressEventHandler(OnKeyPressHandler);
             // 
             // btnPass
             // 

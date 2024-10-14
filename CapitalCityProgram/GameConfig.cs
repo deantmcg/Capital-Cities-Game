@@ -1,15 +1,12 @@
 ﻿using CapitalCityProgram.Helpers;
 using CapitalCityProgram.Models;
 using System;
-using System.Collections.Generic;
 using System.Windows.Forms;
 
 namespace CapitalCityProgram
 {
     public partial class frmGameConfig : Form
     {
-        private List<Country> countries;
-
         public frmGameConfig()
         {
             InitializeComponent();
@@ -23,16 +20,21 @@ namespace CapitalCityProgram
                 txtUsername.Text = "";
                 txtUsername.Focus();
             }
-
+            else if (drpDifficulty.SelectedItem == null)
+            {
+                MessageBox.Show("Choose a difficulty");
+                drpDifficulty.Focus();
+            }
             else
             {
+                var difficultySelection = drpDifficulty.SelectedItem.ToString();
                 QuestionsGenerator questionGenerator = new QuestionsGenerator();
-                var questions = questionGenerator.GetQuestions(GetDifficultyLevel(drpDifficulty.SelectedItem.ToString()));
+                var questions = questionGenerator.GetQuestions(GetDifficultyLevel(difficultySelection));
 
                 var gameDetails = new GameDetails 
                 { 
                     Username = txtUsername.Text, 
-                    Difficulty = GetDifficultyLevel(drpDifficulty.SelectedText),
+                    Difficulty = GetDifficultyLevel(difficultySelection),
                     Questions = questions
                 };
 

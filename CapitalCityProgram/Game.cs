@@ -36,15 +36,41 @@ namespace CapitalCityProgram
 
         private void btnNextQ_Click(object sender, EventArgs e)
         {
+            ProcessQuestion();
+        }
+
+        private void OnKeyPressHandler(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Return)
+            {
+                ProcessQuestion();
+            }
+        }
+
+        private void ProcessQuestion()
+        {
+            if (string.IsNullOrEmpty(txtAnswer.Text))
+            {
+                string message = "Enter an answer. If you don't know, ";
+
+                if (game.CurrentQuestion.HintsLeft > 0)
+                    message += "try a hint!";
+                else
+                    message += "take a guess!";
+
+                MessageBox.Show(message);
+                return;
+            }
+
             bool answerIsCorrect = game.CurrentQuestion.IsCorrect(txtAnswer.Text);
 
-            // if previous answer was correct adds 15 points
+            // If previous answer was correct adds 15 points
             if (answerIsCorrect)
             {
                 UpdateScore(15);
                 game.CurrentQuestion.Status = QuestionStatus.Correct;
             }
-            // if previous answer was incorrect deducts 5 points
+            // If previous answer was incorrect deducts 5 points
             else
             {
                 UpdateScore(-5);
@@ -70,12 +96,12 @@ namespace CapitalCityProgram
 
         public void setQuestion()
         {
-            // asks question as long as questions asked doesn't match chosen amount
-            if (game.QuestionsAsked < 5)
+            // Asks question as long as questions asked doesn't match chosen amount
+            if (game.QuestionsAsked < game.Questions.Count)
             {
                 lblQuestionSpace.Text = game.CurrentQuestion.Text;
             }
-            // if questions asked matches chosen amount this opens Game Over form
+            // If questions asked matches chosen amount this opens Game Over form
             else
             {
                 frmGameOver frmGameOver = new frmGameOver(game);
