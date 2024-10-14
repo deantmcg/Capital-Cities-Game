@@ -18,13 +18,13 @@ namespace CapitalCityProgram.Helpers
             var questionCounts = GetQuestionCountPerDifficulty(difficulty);
             questionCounts = FixQuestionCounts(questionCounts);
 
-            // Loop question counts backwards
+            // Loop question counts (grouped by difficulty) backwards
             for (var i = 3; i >= 0; i--)
             {
                 for (var j = questionCounts[i]; j > 0; j--)
                 {
                     var questionDifficulty = (DifficultyLevel)i;
-                    var question = GenerateQuestion(questionDifficulty);
+                    var question = CreateQuestion(questionDifficulty);
                     _questions.Add(question);
                 }
             }
@@ -33,7 +33,7 @@ namespace CapitalCityProgram.Helpers
         }
 
         // Get a question for a chosen difficulty
-        private Question GenerateQuestion(DifficultyLevel difficulty)
+        private Question CreateQuestion(DifficultyLevel difficulty)
         {
             var country = _countries
                 .Where(x => x.Difficulty == difficulty &&

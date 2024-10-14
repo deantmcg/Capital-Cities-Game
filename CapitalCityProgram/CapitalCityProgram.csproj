@@ -53,6 +53,7 @@
     <Compile Include="Helpers\CountriesAndCapitalsReader.cs" />
     <Compile Include="Helpers\QuestionsGenerator.cs" />
     <Compile Include="Models\CapitalCity.cs" />
+    <Compile Include="Models\Constants.cs" />
     <Compile Include="Models\Country.cs" />
     <Compile Include="Models\Enums.cs" />
     <Compile Include="Helpers\StringHelper.cs" />

@@ -10,27 +10,24 @@ namespace CapitalCityProgram
     {
         private List<Country> countries;
 
-        public frmGameConfig(List<Country> allCountries)
+        public frmGameConfig()
         {
             InitializeComponent();
-            countries = allCountries;
         }
-
-        private static string username = string.Empty;
 
         public void btnGo_Click(object sender, EventArgs e)
         {
             if (txtUsername.Text.Length < 3 || txtUsername.Text.Length > 14) // Ensures text entered is a valid length
             {
-                MessageBox.Show("Username must be at least 3 charatcers long and no longer than 14 characters");
+                MessageBox.Show("Username must be at least 3 characters long and no longer than 14 characters");
                 txtUsername.Text = "";
                 txtUsername.Focus();
             }
 
             else
             {
-                QuestionsGenerator generator = new QuestionsGenerator();
-                var questions = generator.GetQuestions(GetDifficultyLevel(drpDifficulty.SelectedItem.ToString()));
+                QuestionsGenerator questionGenerator = new QuestionsGenerator();
+                var questions = questionGenerator.GetQuestions(GetDifficultyLevel(drpDifficulty.SelectedItem.ToString()));
 
                 var gameDetails = new GameDetails 
                 { 

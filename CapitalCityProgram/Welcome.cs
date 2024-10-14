@@ -8,8 +8,6 @@ namespace CapitalCityProgram // The form which will open first when the program 
 {
     public partial class frmWelcome : Form
     {
-        private List<Country> allCountries = CountriesAndCapitalsReader.GetCountries();
-
         public frmWelcome()
         {
             InitializeComponent();
@@ -30,7 +28,7 @@ namespace CapitalCityProgram // The form which will open first when the program 
 
         private void btnStart_Click(object sender, EventArgs e) // Starts the game - Opens the user details form
         {
-            frmGameConfig frmUserDetails = new frmGameConfig(allCountries);
+            frmGameConfig frmUserDetails = new frmGameConfig();
             frmUserDetails.Show();
             Hide();
         }

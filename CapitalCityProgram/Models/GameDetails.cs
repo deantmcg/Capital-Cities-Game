@@ -8,8 +8,17 @@ namespace CapitalCityProgram.Models
         public string Username { get; set; }
         public DifficultyLevel Difficulty { get; set; }
         public int Score { get; set; } = 0;
-        public int HintsUsed { get; set; } = 0;
         public List<Question> Questions { get; set; }
+        public int CurrentQuestionIndex { get; set; } = 0;
+        public Question CurrentQuestion { get {  return Questions[CurrentQuestionIndex]; } }
+
+        public int HintsUsed
+        {
+            get
+            {
+                return Questions.Sum(x => x.HintsUsed);
+            }
+        }
 
         public int QuestionsPassed
         {
@@ -37,6 +46,22 @@ namespace CapitalCityProgram.Models
         public void UpdateScore(int change)
         {
             Score += change;
+        }
+
+        public void NextQuestion()
+        {
+            CurrentQuestionIndex++;
+        }
+
+        public void PreviousQuestion()
+        {
+            CurrentQuestionIndex--;
+        }
+
+        public void PassQuestion()
+        {
+            CurrentQuestion.Status = QuestionStatus.Passed;
+            CurrentQuestionIndex++;
         }
     }
 }
