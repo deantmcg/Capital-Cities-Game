@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmWelcome));
             this.btnStart = new System.Windows.Forms.Button();
             this.btnInstructions = new System.Windows.Forms.Button();
-            this.btnHighSc = new System.Windows.Forms.Button();
+            this.btnHighScores = new System.Windows.Forms.Button();
             this.picClose = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picClose)).BeginInit();
@@ -61,17 +61,17 @@
             this.btnInstructions.UseVisualStyleBackColor = true;
             this.btnInstructions.Click += new System.EventHandler(this.btnInstructions_Click);
             // 
-            // btnHighSc
+            // btnHighScores
             // 
-            this.btnHighSc.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnHighSc.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHighSc.Location = new System.Drawing.Point(199, 233);
-            this.btnHighSc.Name = "btnHighSc";
-            this.btnHighSc.Size = new System.Drawing.Size(561, 54);
-            this.btnHighSc.TabIndex = 2;
-            this.btnHighSc.Text = "HIGH SCORES";
-            this.btnHighSc.UseVisualStyleBackColor = true;
-            this.btnHighSc.Click += new System.EventHandler(this.button3_Click);
+            this.btnHighScores.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHighScores.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHighScores.Location = new System.Drawing.Point(199, 233);
+            this.btnHighScores.Name = "btnHighScores";
+            this.btnHighScores.Size = new System.Drawing.Size(561, 54);
+            this.btnHighScores.TabIndex = 2;
+            this.btnHighScores.Text = "HIGH SCORES";
+            this.btnHighScores.UseVisualStyleBackColor = true;
+            this.btnHighScores.Click += new System.EventHandler(this.btnHighScores_Click);
             // 
             // picClose
             // 
@@ -108,7 +108,7 @@
             this.ClientSize = new System.Drawing.Size(959, 501);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.picClose);
-            this.Controls.Add(this.btnHighSc);
+            this.Controls.Add(this.btnHighScores);
             this.Controls.Add(this.btnInstructions);
             this.Controls.Add(this.btnStart);
             this.MaximizeBox = false;
@@ -116,7 +116,6 @@
             this.Name = "frmWelcome";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Capital Cities";
-            this.Load += new System.EventHandler(this.Welcome_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picClose)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -126,7 +125,7 @@
         #endregion
         private System.Windows.Forms.Button btnStart;
         private System.Windows.Forms.Button btnInstructions;
-        private System.Windows.Forms.Button btnHighSc;
+        private System.Windows.Forms.Button btnHighScores;
         private System.Windows.Forms.PictureBox picClose;
         private System.Windows.Forms.Label label1;
     }

@@ -49,19 +49,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddCountriesCapitals.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AddCountriesCapitals.Designer.cs">
-      <DependentUpon>AddCountriesCapitals.cs</DependentUpon>
-    </Compile>
     <Compile Include="Helpers\HighScoresHelper.cs" />
     <Compile Include="Helpers\CountriesAndCapitalsReader.cs" />
+    <Compile Include="Helpers\QuestionsGenerator.cs" />
     <Compile Include="Models\CapitalCity.cs" />
     <Compile Include="Models\Country.cs" />
     <Compile Include="Models\Enums.cs" />
     <Compile Include="Helpers\StringHelper.cs" />
+    <Compile Include="Models\GameDetails.cs" />
     <Compile Include="Models\HighScore.cs" />
+    <Compile Include="Models\Question.cs" />
     <Compile Include="Welcome.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,15 +91,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserDetails.cs">
+    <Compile Include="GameConfig.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UserDetails.Designer.cs">
-      <DependentUpon>UserDetails.cs</DependentUpon>
+    <Compile Include="GameConfig.Designer.cs">
+      <DependentUpon>GameConfig.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AddCountriesCapitals.resx">
-      <DependentUpon>AddCountriesCapitals.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Welcome.resx">
       <DependentUpon>Welcome.cs</DependentUpon>
     </EmbeddedResource>
@@ -127,8 +121,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="UserDetails.resx">
-      <DependentUpon>UserDetails.cs</DependentUpon>
+    <EmbeddedResource Include="GameConfig.resx">
+      <DependentUpon>GameConfig.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="GameFiles\countries_and_capitals.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -149,11 +143,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="GameFiles\High Scores.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

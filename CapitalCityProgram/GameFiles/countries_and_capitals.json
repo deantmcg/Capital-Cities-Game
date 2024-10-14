@@ -246,5 +246,396 @@
 	  ],
 	  "Languages": ["Spanish"],
 	  "NeighbouringCountries": ["Chile", "Bolivia", "Paraguay", "Brazil", "Uruguay"]
+	},
+	{
+	  "Name": "United Kingdom",
+	  "AcceptedNames": ["UK", "Great Britain"],
+	  "CapitalCity": {
+		"Name": "London",
+		"AcceptedNames": [],
+		"Hints": [
+		  "Home to the iconic Big Ben and the Houses of Parliament.",
+		  "This city is known for the River Thames.",
+		  "Buckingham Palace is located here."
+		]
+	  },
+	  "Difficulty": "Easy",
+	  "Continent": "Europe",
+	  "Population": 67886011,
+	  "Hints": [
+		"Known for the British monarchy.",
+		"Famous for afternoon tea and fish & chips.",
+		"English is the official language."
+	  ],
+	  "Languages": ["English"],
+	  "NeighbouringCountries": ["Ireland"]
+	},
+	{
+	  "Name": "China",
+	  "AcceptedNames": ["People's Republic of China"],
+	  "CapitalCity": {
+		"Name": "Beijing",
+		"AcceptedNames": ["Peking"],
+		"Hints": [
+		  "Known for the Forbidden City.",
+		  "This city is home to Tiananmen Square.",
+		  "It hosted the 2008 Summer Olympics."
+		]
+	  },
+	  "Difficulty": "Medium",
+	  "Continent": "Asia",
+	  "Population": 1444216107,
+	  "Hints": [
+		"Famous for the Great Wall.",
+		"Known for its ancient civilisation and dynasties.",
+		"Mandarin Chinese is the official language."
+	  ],
+	  "Languages": ["Mandarin"],
+	  "NeighbouringCountries": ["India", "Russia", "Mongolia", "Nepal", "Bhutan", "Vietnam", "Laos", "Myanmar", "North Korea"]
+	},
+	{
+	  "Name": "Mexico",
+	  "AcceptedNames": ["United Mexican States"],
+	  "CapitalCity": {
+		"Name": "Mexico City",
+		"AcceptedNames": ["CDMX"],
+		"Hints": [
+		  "It is built on what was once Tenochtitlan.",
+		  "This city is known for the Zócalo plaza.",
+		  "Home to famous landmarks like Chapultepec Park."
+		]
+	  },
+	  "Difficulty": "Medium",
+	  "Continent": "North America",
+	  "Population": 128932753,
+	  "Hints": [
+		"Famous for its food like tacos and guacamole.",
+		"Home to ancient Mayan and Aztec civilisations.",
+		"Spanish is the official language."
+	  ],
+	  "Languages": ["Spanish"],
+	  "NeighbouringCountries": ["United States", "Guatemala", "Belize"]
+	},
+	{
+	  "Name": "Russia",
+	  "AcceptedNames": ["Russian Federation"],
+	  "CapitalCity": {
+		"Name": "Moscow",
+		"AcceptedNames": [],
+		"Hints": [
+		  "This city is home to the Kremlin.",
+		  "It features the iconic Red Square.",
+		  "The famous St. Basil's Cathedral is located here."
+		]
+	  },
+	  "Difficulty": "Medium",
+	  "Continent": "Europe/Asia",
+	  "Population": 145912025,
+	  "Hints": [
+		"The largest country in the world by land area.",
+		"Known for its cold winters and vast Siberian region.",
+		"Russian is the official language."
+	  ],
+	  "Languages": ["Russian"],
+	  "NeighbouringCountries": ["China", "Mongolia", "Kazakhstan", "Ukraine", "Belarus", "Poland", "Finland", "Latvia", "Estonia", "Lithuania"]
+	},
+	{
+	  "Name": "Saudi Arabia",
+	  "AcceptedNames": ["Kingdom of Saudi Arabia"],
+	  "CapitalCity": {
+		"Name": "Riyadh",
+		"AcceptedNames": [],
+		"Hints": [
+		  "This city is known for its modern architecture.",
+		  "It is located in the centre of the Arabian Peninsula.",
+		  "Riyadh is a major business hub in the Middle East."
+		]
+	  },
+	  "Difficulty": "Medium",
+	  "Continent": "Asia",
+	  "Population": 34813871,
+	  "Hints": [
+		"Home to the two holiest cities in Islam: Mecca and Medina.",
+		"Known for its vast deserts and oil wealth.",
+		"Arabic is the official language."
+	  ],
+	  "Languages": ["Arabic"],
+	  "NeighbouringCountries": ["Jordan", "Iraq", "Kuwait", "Qatar", "United Arab Emirates", "Oman", "Yemen"]
+	},
+	{
+	  "Name": "New Zealand",
+	  "AcceptedNames": ["Aotearoa"],
+	  "CapitalCity": {
+		"Name": "Wellington",
+		"AcceptedNames": [],
+		"Hints": [
+		  "This city is located at the southern tip of the North Island.",
+		  "It is the southernmost capital city in the world.",
+		  "Known for its vibrant arts scene."
+		]
+	  },
+	  "Difficulty": "Easy",
+	  "Continent": "Oceania",
+	  "Population": 5084300,
+	  "Hints": [
+		"Known for its stunning natural landscapes.",
+		"Famous for being the filming location for the Lord of the Rings movies.",
+		"English and Maori are the official languages."
+	  ],
+	  "Languages": ["English", "Maori"],
+	  "NeighbouringCountries": ["None"]
+	},
+	{
+	  "Name": "Nigeria",
+	  "AcceptedNames": ["Federal Republic of Nigeria"],
+	  "CapitalCity": {
+		"Name": "Abuja",
+		"AcceptedNames": [],
+		"Hints": [
+		  "It replaced Lagos as the capital in 1991.",
+		  "This city is located in the centre of the country.",
+		  "Abuja is known for the Nigerian National Mosque."
+		]
+	  },
+	  "Difficulty": "Hard",
+	  "Continent": "Africa",
+	  "Population": 206139589,
+	  "Hints": [
+		"The most populous country in Africa.",
+		"Known for its Nollywood film industry.",
+		"English is the official language."
+	  ],
+	  "Languages": ["English", "Hausa", "Yoruba", "Igbo"],
+	  "NeighbouringCountries": ["Benin", "Niger", "Chad", "Cameroon"]
+	},
+	{
+	  "Name": "South Korea",
+	  "AcceptedNames": ["Republic of Korea", "ROK"],
+	  "CapitalCity": {
+		"Name": "Seoul",
+		"AcceptedNames": [],
+		"Hints": [
+		  "This city is known for its technology and pop culture.",
+		  "Home to the N Seoul Tower and Gyeongbokgung Palace.",
+		  "It hosted the 1988 Summer Olympics."
+		]
+	  },
+	  "Difficulty": "Medium",
+	  "Continent": "Asia",
+	  "Population": 51780579,
+	  "Hints": [
+		"Famous for its K-pop music and entertainment industry.",
+		"Known for its technological advancements, like Samsung.",
+		"The official language is Korean."
+	  ],
+	  "Languages": ["Korean"],
+	  "NeighbouringCountries": ["North Korea"]
+	},
+	{
+	  "Name": "Turkey",
+	  "AcceptedNames": ["Republic of Turkey"],
+	  "CapitalCity": {
+		"Name": "Ankara",
+		"AcceptedNames": [],
+		"Hints": [
+		  "This city is known for its government institutions.",
+		  "It is the second-largest city in Turkey.",
+		  "Home to the mausoleum of Mustafa Kemal Atatürk."
+		]
+	  },
+	  "Difficulty": "Medium",
+	  "Continent": "Europe/Asia",
+	  "Population": 84339067,
+	  "Hints": [
+		"Famous for its historical sites like Hagia Sophia and the Blue Mosque.",
+		"Located between Europe and Asia, with the Bosphorus Strait.",
+		"The official language is Turkish."
+	  ],
+	  "Languages": ["Turkish"],
+	  "NeighbouringCountries": ["Greece", "Bulgaria", "Georgia", "Armenia", "Iran", "Iraq", "Syria"]
+	},
+	{
+	  "Name": "Spain",
+	  "AcceptedNames": ["Kingdom of Spain"],
+	  "CapitalCity": {
+		"Name": "Madrid",
+		"AcceptedNames": [],
+		"Hints": [
+		  "This city is famous for the Royal Palace and the Prado Museum.",
+		  "It is known for its plazas and vibrant nightlife.",
+		  "Home to the iconic Retiro Park."
+		]
+	  },
+	  "Difficulty": "Medium",
+	  "Continent": "Europe",
+	  "Population": 47351567,
+	  "Hints": [
+		"Known for its rich history and landmarks like the Alhambra.",
+		"Famous for its cuisine, including paella and tapas.",
+		"The official language is Spanish."
+	  ],
+	  "Languages": ["Spanish"],
+	  "NeighbouringCountries": ["France", "Portugal", "Andorra"]
+	},
+	{
+	  "Name": "Thailand",
+	  "AcceptedNames": ["Kingdom of Thailand"],
+	  "CapitalCity": {
+		"Name": "Bangkok",
+		"AcceptedNames": [],
+		"Hints": [
+		  "This city is known for its vibrant street life and temples.",
+		  "Home to the Grand Palace and Wat Phra Kaew.",
+		  "It is located along the Chao Phraya River."
+		]
+	  },
+	  "Difficulty": "Medium",
+	  "Continent": "Asia",
+	  "Population": 69799978,
+	  "Hints": [
+		"Famous for its tropical beaches and rich culture.",
+		"Known for its cuisine, like Thai curry and pad Thai.",
+		"The official language is Thai."
+	  ],
+	  "Languages": ["Thai"],
+	  "NeighbouringCountries": ["Myanmar", "Laos", "Cambodia", "Malaysia"]
+	},
+	{
+	  "Name": "Indonesia",
+	  "AcceptedNames": ["Republic of Indonesia"],
+	  "CapitalCity": {
+		"Name": "Jakarta",
+		"AcceptedNames": [],
+		"Hints": [
+		  "This city is located on the island of Java.",
+		  "It is a bustling metropolis with a rich history.",
+		  "Known for its traffic and skyscrapers."
+		]
+	  },
+	  "Difficulty": "Hard",
+	  "Continent": "Asia",
+	  "Population": 273523621,
+	  "Hints": [
+		"The largest archipelago nation in the world.",
+		"Famous for its islands like Bali and Sumatra.",
+		"The official language is Indonesian."
+	  ],
+	  "Languages": ["Indonesian"],
+	  "NeighbouringCountries": ["Malaysia", "Papua New Guinea", "East Timor"]
+	},
+	{
+	  "Name": "Sweden",
+	  "AcceptedNames": ["Kingdom of Sweden"],
+	  "CapitalCity": {
+		"Name": "Stockholm",
+		"AcceptedNames": [],
+		"Hints": [
+		  "This city is built on 14 islands connected by over 50 bridges.",
+		  "Home to the Nobel Prize ceremonies.",
+		  "It is known for its medieval old town, Gamla Stan."
+		]
+	  },
+	  "Difficulty": "Medium",
+	  "Continent": "Europe",
+	  "Population": 10327589,
+	  "Hints": [
+		"Known for its beautiful landscapes and high quality of life.",
+		"Famous for its designs, including IKEA and Volvo.",
+		"The official language is Swedish."
+	  ],
+	  "Languages": ["Swedish"],
+	  "NeighbouringCountries": ["Norway", "Finland"]
+	},
+	{
+	  "Name": "Pakistan",
+	  "AcceptedNames": ["Islamic Republic of Pakistan"],
+	  "CapitalCity": {
+		"Name": "Islamabad",
+		"AcceptedNames": [],
+		"Hints": [
+		  "This city is known for its modern architecture.",
+		  "Home to the Faisal Mosque, one of the largest in the world.",
+		  "Located at the foot of the Margalla Hills."
+		]
+	  },
+	  "Difficulty": "Hard",
+	  "Continent": "Asia",
+	  "Population": 225199937,
+	  "Hints": [
+		"Known for its diverse geography from mountains to deserts.",
+		"Famous for its food, including biryani and kebabs.",
+		"The official languages are Urdu and English."
+	  ],
+	  "Languages": ["Urdu", "English"],
+	  "NeighbouringCountries": ["India", "China", "Afghanistan", "Iran"]
+	},
+	{
+	  "Name": "Greece",
+	  "AcceptedNames": ["Hellenic Republic"],
+	  "CapitalCity": {
+		"Name": "Athens",
+		"AcceptedNames": [],
+		"Hints": [
+		  "This city is known for the Acropolis and Parthenon.",
+		  "It is one of the oldest cities in the world.",
+		  "Famous for its ancient history and classical architecture."
+		]
+	  },
+	  "Difficulty": "Medium",
+	  "Continent": "Europe",
+	  "Population": 10423054,
+	  "Hints": [
+		"Famous for its ancient civilisation and mythology.",
+		"Known for its islands like Santorini and Crete.",
+		"The official language is Greek."
+	  ],
+	  "Languages": ["Greek"],
+	  "NeighbouringCountries": ["Albania", "North Macedonia", "Bulgaria", "Turkey"]
+	},
+	{
+	  "Name": "Norway",
+	  "AcceptedNames": ["Kingdom of Norway"],
+	  "CapitalCity": {
+		"Name": "Oslo",
+		"AcceptedNames": [],
+		"Hints": [
+		  "This city is known for its green spaces and museums.",
+		  "Located at the head of Oslofjord.",
+		  "Home to the Nobel Peace Center."
+		]
+	  },
+	  "Difficulty": "Medium",
+	  "Continent": "Europe",
+	  "Population": 5421241,
+	  "Hints": [
+		"Known for its fjords and stunning natural scenery.",
+		"Famous for its Viking history and heritage.",
+		"The official language is Norwegian."
+	  ],
+	  "Languages": ["Norwegian"],
+	  "NeighbouringCountries": ["Sweden", "Finland", "Russia"]
+	},
+	{
+	  "Name": "Kenya",
+	  "AcceptedNames": ["Republic of Kenya"],
+	  "CapitalCity": {
+		"Name": "Nairobi",
+		"AcceptedNames": [],
+		"Hints": [
+		  "This city is known for its national park located within the city.",
+		  "It is a major financial and cultural centre in East Africa.",
+		  "Home to the Nairobi National Museum."
+		]
+	  },
+	  "Difficulty": "Hard",
+	  "Continent": "Africa",
+	  "Population": 53771296,
+	  "Hints": [
+		"Famous for its safaris and wildlife, including the Big Five.",
+		"Known for the Great Rift Valley and Mount Kenya.",
+		"The official languages are Swahili and English."
+	  ],
+	  "Languages": ["Swahili", "English"],
+	  "NeighbouringCountries": ["Uganda", "Tanzania", "Ethiopia", "Somalia", "South Sudan"]
 	}
 ]

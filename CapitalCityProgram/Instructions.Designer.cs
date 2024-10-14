@@ -84,7 +84,7 @@
             this.lblCorrect.ForeColor = System.Drawing.Color.Lime;
             this.lblCorrect.Location = new System.Drawing.Point(341, 71);
             this.lblCorrect.Name = "lblCorrect";
-            this.lblCorrect.Size = new System.Drawing.Size(260, 44);
+            this.lblCorrect.Size = new System.Drawing.Size(259, 44);
             this.lblCorrect.TabIndex = 3;
             this.lblCorrect.Text = "CORRECT +15";
             // 
@@ -96,7 +96,7 @@
             this.lblIncorrect.ForeColor = System.Drawing.Color.Red;
             this.lblIncorrect.Location = new System.Drawing.Point(341, 119);
             this.lblIncorrect.Name = "lblIncorrect";
-            this.lblIncorrect.Size = new System.Drawing.Size(270, 44);
+            this.lblIncorrect.Size = new System.Drawing.Size(269, 44);
             this.lblIncorrect.TabIndex = 4;
             this.lblIncorrect.Text = "INCORRECT -5";
             // 
@@ -108,7 +108,7 @@
             this.lblPass.ForeColor = System.Drawing.Color.DimGray;
             this.lblPass.Location = new System.Drawing.Point(341, 163);
             this.lblPass.Name = "lblPass";
-            this.lblPass.Size = new System.Drawing.Size(174, 44);
+            this.lblPass.Size = new System.Drawing.Size(173, 44);
             this.lblPass.TabIndex = 5;
             this.lblPass.Text = "PASS -10";
             this.lblPass.Click += new System.EventHandler(this.label6_Click);
@@ -145,7 +145,7 @@
             this.lblHints.ForeColor = System.Drawing.Color.MidnightBlue;
             this.lblHints.Location = new System.Drawing.Point(341, 207);
             this.lblHints.Name = "lblHints";
-            this.lblHints.Size = new System.Drawing.Size(164, 44);
+            this.lblHints.Size = new System.Drawing.Size(163, 44);
             this.lblHints.TabIndex = 8;
             this.lblHints.Text = "HINTS -5";
             // 

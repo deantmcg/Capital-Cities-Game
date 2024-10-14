@@ -1,4 +1,5 @@
-﻿using CapitalCityTests.Helpers;
+﻿using CapitalCityProgram.Models;
+using CapitalCityTests.Helpers;
 using System;
 using System.Windows.Forms;
 
@@ -6,30 +7,30 @@ namespace CapitalCityProgram
 {
     public partial class frmGameOver : Form
     {
-        public frmGameOver()
+        public frmGameOver(GameDetails gameDetails)
         {
-            double possible = (frmAddCountriesCapitals.questions) * 15; // calculates maximum score user could have achieved
+            double possible = (gameDetails.QuestionsAsked) * 15; // calculates maximum score user could have achieved
             InitializeComponent();
-            if (frmGame.score == possible) // if score = 100%
+            if (gameDetails.Score == possible) // if score = 100%
                 lblResult.Text = "Full Marks! Excellent score!";
-            else if (frmGame.score >= ((possible / 100)*75)) // if score greater than 75%
+            else if (gameDetails.Score >= ((possible / 100)*75)) // if score greater than 75%
                 lblResult.Text = "Well done! Great Score!";
 
-            else if (frmGame.score >= ((possible / 100) * 60) && frmGame.score < ((possible / 100) * 75)) // if score in range 65%-74%
+            else if (gameDetails.Score >= ((possible / 100) * 60) && gameDetails.Score < ((possible / 100) * 75)) // if score in range 65%-74%
                 lblResult.Text = "Good Score!";
 
-            else if (frmGame.score >= ((possible / 100) * 45) && frmGame.score < ((possible / 100) * 60)) // if score in range 45%-59%
+            else if (gameDetails.Score >= ((possible / 100) * 45) && gameDetails.Score < ((possible / 100) * 60)) // if score in range 45%-59%
                 lblResult.Text = "You have work to do! Try again!";
 
             else // if score less than 45%
                 lblResult.Text = "Poor score. Try again!";
 
-            lblScored.Text = frmUserDetails.username.ToUpper()+" SCORED";
-            lblScore.Text = frmGame.score.ToString(); // displays users score
+            lblScored.Text = gameDetails.Username.ToUpper()+" SCORED";
+            lblScore.Text = gameDetails.Score.ToString(); // displays users score
             lblFromPossible.Text = "FROM A POSSIBLE "+possible.ToString();
-            lblHintsPasses.Text = "Hints used: " + frmGame.hintsUsed + " Passes: "+frmGame.questionsPassed; // Displays pass and hint counts
+            lblHintsPasses.Text = "Hints used: " + gameDetails.HintsUsed + " Passes: " + gameDetails.QuestionsPassed; // Displays pass and hint counts
 
-            SaveScore(frmUserDetails.username, frmGame.score); // sends username and score to be added to high scores
+            SaveScore(gameDetails.Username, gameDetails.Score); // sends username and score to be added to high scores
         }
         
         // Opens welcome form

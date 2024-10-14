@@ -1,36 +1,25 @@
-﻿using System;
+﻿using CapitalCityProgram.Models;
+using CapitalCityTests.Helpers;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CapitalCityProgram // The form which will open first when the program is loaded
 {
     public partial class frmWelcome : Form
     {
+        private List<Country> allCountries = CountriesAndCapitalsReader.GetCountries();
+
         public frmWelcome()
         {
             InitializeComponent();
         }
 
-        private void Welcome_Load(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void button3_Click(object sender, EventArgs e) // Opens the high scores form
+        private void btnHighScores_Click(object sender, EventArgs e) // Opens the high scores form
         {
             frmHighScores frmHighScores = new frmHighScores();
-            this.Hide();
+            Hide();
             frmHighScores.Show();
-        }
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void btnInstructions_Click(object sender, EventArgs e) // Opens the instructions form
@@ -41,9 +30,9 @@ namespace CapitalCityProgram // The form which will open first when the program 
 
         private void btnStart_Click(object sender, EventArgs e) // Starts the game - Opens the user details form
         {
-            frmUserDetails frmUserDetails = new frmUserDetails();
+            frmGameConfig frmUserDetails = new frmGameConfig(allCountries);
             frmUserDetails.Show();
-            this.Hide();
+            Hide();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

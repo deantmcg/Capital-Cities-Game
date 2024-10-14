@@ -122,13 +122,13 @@
 - You will then be asked to enter how many questions you want to be asked
 - Navigate your way through the game and try pick up as many points as possible
 - You may click pass on a question if you don't know the answer but you will be deducted points
-- You can press Hint to see the first lettet of the answer</value>
+- You can press Hint to see the first letter of the answer</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="picClose.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAA+gAAAPoCAYAAABNo9TkAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAABW
-        uAAAVrgBGNQtgwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAgdEVYdFRpdGxl
+        twAAVrcBbhqDmQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAgdEVYdFRpdGxl
         AHJvdW5kIGVycm9yIHdhcm5pbmcgYnV0dG9u+RIGQgAAABp0RVh0QXV0aG9yAEx1bWVuIERlc2lnbiBT
         dHVkaW9cWfnvAAAAHnRFWHREZXNjcmlwdGlvbgBlcnJvciB3YXJuaW5nIGljb26XVDdNAAD/EUlEQVR4
         XuzdB7htVXnv/3vO4ZzD4dA70lWKWFAIUpQmioJIFQVFigURjRLFYC+osUVTjZrcGFNM8td/zN+beKMp
@@ -1463,7 +1463,7 @@
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAKAAAACgCAYAAACLz2ctAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        xAAADsQBlSsOGwAAAZpJREFUeF7t0jEBACAMwDBM4gth8zRk9MkRBzn3zUJFQFICkhKQlICkBCQlICkB
+        wwAADsMBx2+oZAAAAZpJREFUeF7t0jEBACAMwDBM4gth8zRk9MkRBzn3zUJFQFICkhKQlICkBCQlICkB
         SQlISkBSApISkJSApAQkJSApAUkJSEpAUgKSEpCUgKQEJCUgKQFJCUhKQFICkhKQlICkBCQlICkBSQlI
         SkBSApISkJSApAQkJSApAUkJSEpAUgKSEpCUgKQEJCUgKQFJCUhKQFICkhKQlICkBCQlICkBSQlISkBS
         ApISkJSApAQkJSApAUkJSEpAUgKSEpCUgKQEJCUgKQFJCUhKQFICkhKQlICkBCQlICkBSQlISkBSApIS

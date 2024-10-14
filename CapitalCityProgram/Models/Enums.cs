@@ -13,4 +13,12 @@
         Country = 0,
         CapitalCity = 1
     }
+
+    public enum QuestionStatus
+    {
+        Correct,
+        Incorrect,
+        Passed,
+        Unanswered
+    }
 }
