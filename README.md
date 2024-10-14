@@ -45,7 +45,3 @@ Some future improvements I have in mind include:
 ## Acknowledgements
 
 This project holds special significance as one of my first coding assignments. The refactor is an ongoing effort to reflect my growth as a developer and make the code more professional.
-
----
-
-Feel free to adapt this based on any additional features or custom instructions!
